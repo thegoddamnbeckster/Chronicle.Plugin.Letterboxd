@@ -1,0 +1,8 @@
+{
+  "plugin_id":   "letterboxd",
+  "name":        "Letterboxd",
+  "version":     "1.0.0",
+  "author":      "Michael Beck",
+  "description": "Import film diary, ratings and watchlist from Letterboxd via RSS feeds",
+  "entry_type":  "Chronicle.Plugin.Letterboxd.LetterboxdImportProvider"
+}
