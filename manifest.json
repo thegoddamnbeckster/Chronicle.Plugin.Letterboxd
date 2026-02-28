@@ -4,5 +4,6 @@
   "version":     "1.0.0",
   "author":      "Michael Beck",
   "description": "Import film diary, ratings and watchlist from Letterboxd via RSS feeds",
-  "entry_type":  "Chronicle.Plugin.Letterboxd.LetterboxdImportProvider"
+  "entry_type":  "Chronicle.Plugin.Letterboxd.LetterboxdImportProvider",
+  "iconUrl":     "https://letterboxd.com/favicon.ico"
 }
