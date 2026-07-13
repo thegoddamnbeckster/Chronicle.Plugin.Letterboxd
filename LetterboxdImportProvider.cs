@@ -100,7 +100,8 @@ public sealed class LetterboxdImportProvider : IImportProvider
     // ── Capabilities ──────────────────────────────────────────────────────────
 
     public ImportCapabilities GetCapabilities() =>
-        new(SupportsHistory: true, SupportsRatings: true, SupportsWatchlist: true);
+        new(SupportsHistory: true, SupportsRatings: true, SupportsWatchlist: true,
+            RequiresDeviceAuth: false);
 
     // ── Import — history (diary) ──────────────────────────────────────────────
 
