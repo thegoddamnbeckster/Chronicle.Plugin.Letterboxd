@@ -30,7 +30,7 @@ public sealed class LetterboxdImportProvider : IImportProvider
 
     public string PluginId    => "letterboxd";
     public string Name        => "Letterboxd";
-    public string Version     => "1.0.0";
+    public string Version     => System.Reflection.CustomAttributeExtensions.GetCustomAttribute<System.Reflection.AssemblyInformationalVersionAttribute>(typeof(LetterboxdImportProvider).Assembly)?.InformationalVersion.Split('+')[0] ?? "1.0.0";
     public string Author      => "Michael Beck";
     public string Description =>
         "Import film diary, ratings and watchlist from Letterboxd (public accounts via RSS)";
